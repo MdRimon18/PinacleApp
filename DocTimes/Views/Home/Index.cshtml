@@ -1,0 +1,257 @@
+﻿@{
+    ViewData["Title"] = "WeeklyPlan";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model Domain.ViewModel.RoutingHelper
+
+<div id="MainContainer">
+    <!-- Dynamically load the partial view based on RouteName -->
+    @if (Model.IsShow && !string.IsNullOrEmpty(Model.RouteName))
+    {
+        @await Html.PartialAsync(Model.RouteName)
+        // Loads the partial based on RouteName
+    }
+</div>
+@* 
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const mainContainer = document.getElementById("MainContainer");
+
+        // Function to load partials dynamically
+        async function loadContent(route) {
+            const response = await fetch(`/${route}`, {
+                headers: {
+                    "X-Requested-With": "XMLHttpRequest"
+                }
+            });
+            const content = await response.text();
+            mainContainer.innerHTML = content;
+        }
+
+        // Handle browser history changes
+        window.onpopstate = function (event) {
+            if (event.state && event.state.route) {
+                loadContent(event.state.route);
+            }
+        };
+
+        // Link handling
+        document.querySelectorAll("a[data-spa]").forEach(link => {
+            link.addEventListener("click", function (e) {
+                e.preventDefault();
+                const route = this.getAttribute("data-spa");
+
+                loadContent(route);
+
+                // Update browser history
+                history.pushState({ route }, "", `/${route}`);
+            });
+        });
+    });
+</script> *@
+
+@* 
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const mainContainer = document.getElementById("MainContainer");
+
+        // Function to load partials dynamically, accepting route and optional ID
+        async function loadContent(route, id = null) {
+            let url = `/${route}`;
+            if (id) {
+                url += `/${id}`; // Append the ID to the URL if provided
+            }
+
+            const response = await fetch(url, {
+                headers: {
+                    "X-Requested-With": "XMLHttpRequest"
+                }
+            });
+            const content = await response.text();
+            mainContainer.innerHTML = content;
+        }
+
+        // Handle browser history changes
+        window.onpopstate = function (event) {
+            if (event.state && event.state.route) {
+                loadContent(event.state.route, event.state.id);
+            }
+        };
+
+        // Link handling
+        document.querySelectorAll("a[data-spa]").forEach(link => {
+            link.addEventListener("click", function (e) {
+                e.preventDefault();
+                const route = this.getAttribute("data-spa");
+                const id = this.getAttribute("data-id"); // Retrieve the ID from a custom data attribute
+
+                loadContent(route, id);
+
+                // Update browser history
+                history.pushState({ route, id }, "", `/${route}/${id || ""}`);
+            });
+        });
+    });
+</script>
+
+ *@
+@* 
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const mainContainer = document.getElementById("MainContainer");
+
+        // Function to load partials dynamically, accepting route and optional parameters
+        async function loadContent(route, params = {}) {
+            // Build the URL with path and query parameters
+            let url = `/${route}`;
+            const query = new URLSearchParams(params).toString();
+            if (query) {
+                url += `?${query}`;
+            }
+
+            const response = await fetch(url, {
+                headers: {
+                    "X-Requested-With": "XMLHttpRequest"
+                }
+            });
+            const content = await response.text();
+            mainContainer.innerHTML = content;
+        }
+
+        // Handle browser history changes
+        window.onpopstate = function (event) {
+            if (event.state && event.state.route) {
+                loadContent(event.state.route, event.state.params);
+            }
+        };
+
+        // Link handling
+        document.querySelectorAll("a[data-spa]").forEach(link => {
+            link.addEventListener("click", function (e) {
+                e.preventDefault();
+                const route = this.getAttribute("data-spa");
+                const id = this.getAttribute("data-id"); // Retrieve the ID if provided
+
+                // Create params object if ID is available
+                const params = id ? { id } : {};
+
+                loadContent(route, params);
+
+                // Update browser history
+                history.pushState({ route, params }, "", `/${route}${id ? `?id=${id}` : ""}`);
+            });
+        });
+    });
+</script> *@
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const mainContainer = document.getElementById("MainContainer");
+
+        // Function to load partials dynamically, accepting route with folder structure and optional parameters
+        async function loadContent(route, params = {}) {
+            // Build the URL with path and query parameters
+            let url = `/${route}`;  // route can be in "folder/subfolder/view" format
+            const query = new URLSearchParams(params).toString();
+            if (query) {
+                url += `?${query}`;
+            }
+
+            const response = await fetch(url, {
+                headers: {
+                    "X-Requested-With": "XMLHttpRequest"
+                }
+            });
+            const content = await response.text();
+            mainContainer.innerHTML = content;
+        }
+
+        // Handle browser history changes
+        window.onpopstate = function (event) {
+            if (event.state && event.state.route) {
+                loadContent(event.state.route, event.state.params);
+            }
+        };
+
+        // Link handling
+        document.querySelectorAll("a[data-spa]").forEach(link => {
+            link.addEventListener("click", function (e) {
+                e.preventDefault();
+                const route = this.getAttribute("data-spa");  // Full path, e.g., "Admin/Dashboard"
+                const id = this.getAttribute("data-id"); // Retrieve the ID if provided
+
+                // Create params object if ID is available
+                const params = id ? { id } : {};
+
+                loadContent(route, params);
+
+                // Update browser history with the full path
+                history.pushState({ route, params }, "", `/${route}${id ? `?id=${id}` : ""}`);
+            });
+        });
+    });
+</script>
+
+@* 
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const mainContainer = document.getElementById("MainContainer");
+
+        // Function to load partials dynamically, handling both path and query parameters
+        async function loadContent(route, params = {}) {
+            let url = `/${route}`;
+            const query = new URLSearchParams(params).toString();
+            if (query) {
+                url += `?${query}`;
+            }
+
+            const response = await fetch(url, {
+                headers: {
+                    "X-Requested-With": "XMLHttpRequest"
+                }
+            });
+
+            if (response.ok) {
+                const content = await response.text();
+                mainContainer.innerHTML = content;
+
+                // Re-initialize any JavaScript plugins or functions if needed
+                initializePlugins();
+            } else {
+                mainContainer.innerHTML = "<p>Content not found.</p>";
+            }
+        }
+
+        // Handle browser history changes
+        window.onpopstate = function (event) {
+            if (event.state && event.state.route) {
+                loadContent(event.state.route, event.state.params);
+            }
+        };
+
+        // Link handling for links with data-spa attribute
+        document.querySelectorAll("a[data-spa]").forEach(link => {
+            link.addEventListener("click", function (e) {
+                e.preventDefault();
+                const route = this.getAttribute("data-spa");  // e.g., "Invoice/Create"
+                const id = this.getAttribute("data-id");      // Optional ID
+
+                // Create a params object to store query parameters
+                const params = id ? { id } : {};
+
+                // Load the content dynamically
+                loadContent(route, params);
+
+                // Update browser history
+                history.pushState({ route, params }, "", `/${route}${id ? `?id=${id}` : ""}`);
+            });
+        });
+    });
+
+    // Optional: JavaScript function for initializing plugins after content load
+    function initializePlugins() {
+        // Any re-initialization code for plugins or JS functionality goes here
+    }
+</script>
+ *@
