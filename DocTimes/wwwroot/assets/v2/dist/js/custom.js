@@ -91,7 +91,7 @@ $(function() {
     // Resize all elements
     // ==============================================================
     $("body, .page-wrapper").trigger("resize");
-    $(".page-wrapper").delay(20).show();
+    $(".page-wrapper").delay(0).show();
     // ==============================================================
     // To do list
     // ==============================================================
@@ -157,6 +157,10 @@ $(function() {
     $(".show-left-part").on('click', function() {
         $('.left-part').toggleClass('show-panel');
         $('.show-left-part').toggleClass('ri-menu-fill');
+    });
+    $(".show-right-part").on('click', function() {
+        $('.chat-sidebar').toggleClass('show-panel');
+        $('.show-right-part').toggleClass('ri-menu-fill');
     });
 
 }); 

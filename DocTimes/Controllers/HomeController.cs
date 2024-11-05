@@ -32,16 +32,16 @@ namespace DocTimes.Controllers
 
             return View(routingHelper); // Loads the default view if no route is specified
         }
-        public ActionResult Blazor()
-        {
-            // If the request is an AJAX request, return the partial view only
-            if (HttpContext.Request.Headers["X-Requested-With"] == "XMLHttpRequest")
-            {
-                return PartialView("Chart");
-            }
+        //public ActionResult Blazor()
+        //{
+        //    // If the request is an AJAX request, return the partial view only
+        //    if (HttpContext.Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+        //    {
+        //        return PartialView("Chart");
+        //    }
            
-            return View("Chart");  // Full view if not an AJAX request
-        }
+        //    return View("Chart");  // Full view if not an AJAX request
+        //}
 
         // Define a route that accepts route name and ID as parameters
 
