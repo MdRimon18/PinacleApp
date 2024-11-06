@@ -7,12 +7,12 @@ namespace DocTimes.Controllers
         public IActionResult Payment()
         {
             // If the request is an AJAX request, return the partial view only
-            if (HttpContext.Request.Headers["X-Requested-With"] == "XMLHttpRequest")
-            {
-                return PartialView("Payment");
-            }
+            //if (HttpContext.Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+            //{
+            //    return PartialView("Payment");
+            //}
 
-            return View("Payment");
+            return PartialView("Payment");
 
         }
          

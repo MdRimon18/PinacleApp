@@ -153,27 +153,22 @@
                                     <li class="nav-item">
                                         <a href="#" data-spa="DoctorAvailabilitySetup/WeeklyPlan" data-id="2">
                                             <div class="d-flex align-items-center">
+                                                <span class="nav-link-text ps-1">WeeklyPlan</span>
+                                            </div>
+                                        </a>
+                                        <!-- more inner pages-->
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="/Chart/Index"   data-id="2">
+                                            <div class="d-flex align-items-center">
                                                 <span class="nav-link-text ps-1">Chart</span>
                                             </div>
                                         </a>
                                         <!-- more inner pages-->
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active" href="/Calendar" data-spa="Calendar">
-                                            <div class="d-flex align-items-center">
-                                                <span class="nav-link-text ps-1">Default</span>
-                                            </div>
-                                        </a>
-                                        <!-- more inner pages-->
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" style="cursor:pointer" href="/Followers" data-spa="Followers">
-                                            <div class="d-flex align-items-center">
-                                                <span class="nav-link-text ps-1">Analytics</span>
-                                            </div>
-                                        </a>
-                                        <!-- more inner pages-->
-                                    </li>
+ 
+                                   @* 
                                     <li class="nav-item">
                                         <a class="nav-link" href="#" data-spa="Followers" data-id="123">
                                             <div class="d-flex align-items-center">
@@ -181,11 +176,11 @@
                                             </div>
                                         </a>
                                         <!-- more inner pages-->
-                                    </li>
+                                    </li> *@
                                     <li class="nav-item">
-                                        <a class="nav-link"  data-spa="Home/Followers" data-id="1">
+                                        <a class="nav-link" href="#" data-spa="WorkStatus/Progress" data-id="1">
                                             <div class="d-flex align-items-center">
-                                                <span class="nav-link-text ps-1">Controller action</span>
+                                                <span class="nav-link-text ps-1">Work Progress</span>
                                             </div>
                                         </a>
                                         <!-- more inner pages-->
@@ -215,7 +210,7 @@
                                         <!-- more inner pages-->
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="dashboard/project-management.html">
+                                        <a class="nav-link" data-spa="Services/Payment">
                                             <div class="d-flex align-items-center">
                                                 <span class="nav-link-text ps-1">Management</span>
                                             </div>
@@ -2681,9 +2676,66 @@
                         </li>
                     </ul>
                 </nav>
-                @RenderBody()
-        
-        
+                 <div id="MainContainer">
+                 @RenderBody()
+                    </div>
+
+               <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const mainContainer = document.getElementById("MainContainer");
+
+                        async function loadContent(route, params = {}, isPartial = true) {
+                            params.isPartial = isPartial; // Add isPartial parameter
+
+                            let url = `/${route}`;
+                            const query = new URLSearchParams(params).toString();
+                            if (query) {
+                                url += `?${query}`;
+                            }
+
+                            try {
+                                const response = await fetch(url, {
+                                    headers: { "X-Requested-With": "XMLHttpRequest" }
+                                });
+                                if (response.ok) {
+                                    const content = await response.text();
+                                    mainContainer.innerHTML = content;
+                                    bindSpaLinks(); // Rebind links for new content
+                                } else {
+                                    mainContainer.innerHTML = `<p>Error: Could not load content.</p>`;
+                                }
+                            } catch (error) {
+                                mainContainer.innerHTML = `<p>Error: ${error.message}</p>`;
+                            }
+                        }
+
+                        function bindSpaLinks() {
+                            document.querySelectorAll("a[data-spa]").forEach(link => {
+                                link.addEventListener("click", function (e) {
+                                    e.preventDefault();
+                                    const route = this.getAttribute("data-spa");
+                                    const id = this.getAttribute("data-id"); // Retrieve the ID if provided
+
+                                    // Create params object with ID if available
+                                    const params = id ? { id } : {};
+
+                                    loadContent(route, params);
+                                    history.pushState({ route, params }, "", `/${route}${id ? `?id=${id}` : ""}`);
+                                });
+                            });
+                        }
+
+            window.onpopstate = function (event) {
+                if (event.state && event.state.route) {
+                    loadContent(event.state.route);
+                }
+            };
+
+            bindSpaLinks();
+        });
+    </script>
+
+
                 </main>
     <!-- ===============================================-->
     <!--    End of Main Content-->
@@ -2828,41 +2880,13 @@
     <script src="~/vendors/list.js/list.min.js"></script>
     <script src="~/assets/js/theme.js"></script>
 
+   
+    <script src="~/vendors/glightbox/glightbox.min.js"> </script>
+    <script src="~/vendors/draggable/draggable.bundle.legacy.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <script>
-
-        function LoadMvcComponent(routeName) {
-            $.ajax({
-                url: '/Home/LoadMvcComponent', // The controller action that loads the partial view
-                type: 'GET',
-                data: { route: routeName },
-                success: function (result) {
-                    // Update the target element with the returned partial view content
-                    $('#blazorComponentContainer').html(result);
-
-
-                    // Change the URL in the browser without reloading the page
-                    window.history.pushState(
-                        { routeName: routeName }, // State object (used for popstate event)
-                        '', // Title (optional)
-                        '/' + routeName // The new URL path
-                    );
-                },
-                error: function (xhr, status, error) {
-                    console.error('Failed to load component:', error);
-                }
-            });
-        }
-
-        // Handle back/forward navigation in the browser
-        window.onpopstate = function (event) {
-            if (event.state && event.state.routeName) {
-                loadComponent(event.state.routeName);
-            }
-        };
-    </script>
+     
     @* <script src="_framework/blazor.server.js"></script> *@
 </body>
 

@@ -14,89 +14,31 @@ namespace DocTimes.Controllers
         {
             _logger = logger;
         }
-
-        [Route("{route?}")]
-        public IActionResult Index(string route, int? id = null)
+        public IActionResult Index()
         {
-            var routingHelper = new RoutingHelper
-            {
-                RouteName = route,
-                IsShow = true
-            };
+             
+            return View();
 
-            // If the request is an AJAX request, return the partial view only
-            if (HttpContext.Request.Headers["X-Requested-With"] == "XMLHttpRequest")
-            {
-                return PartialView(route); // Serve just the partial if requested via AJAX
-            }
-
-            return View(routingHelper); // Loads the default view if no route is specified
         }
-        //public ActionResult Blazor()
+        //[Route("{route?}")]
+        //public IActionResult Index(string route, int? id = null)
         //{
-        //    // If the request is an AJAX request, return the partial view only
-        //    if (HttpContext.Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+        //    var routingHelper = new RoutingHelper
         //    {
-        //        return PartialView("Chart");
-        //    }
-           
-        //    return View("Chart");  // Full view if not an AJAX request
-        //}
-
-        // Define a route that accepts route name and ID as parameters
-
-        //public async Task<IActionResult> Index(string route, int? id = null)
-        //{
-        //    // Check if route name is valid or if it maps to a specific partial view
-        //    if (string.IsNullOrEmpty(route))
-        //    {
-        //        route = "Followers";
-        //      //  return BadRequest("Route is required");
-        //    }
-
-        //    // Optional: Add any logic to fetch data based on the ID if it's provided
-        //    var model = new RoutingHelper
-        //    {
-        //        IsShow = true,
         //        RouteName = route,
-        //        // Add any additional properties or data fetched based on the ID here
+        //        IsShow = true
         //    };
 
         //    // If the request is an AJAX request, return the partial view only
         //    if (HttpContext.Request.Headers["X-Requested-With"] == "XMLHttpRequest")
         //    {
-        //        return PartialView(route, model); // Serve just the partial if requested via AJAX
+        //        return PartialView(route); // Serve just the partial if requested via AJAX
         //    }
 
-        //    return PartialView(route, model);
+        //    return PartialView(routingHelper); // Loads the default view if no route is specified
         //}
 
-        public IActionResult LoadMvcComponent(string route)
-        {
-            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
-            {
-                return PartialView();
-            }
-            // Return the partial view with the model
-            return PartialView("_MvcPagePartial");
-        }
-        public IActionResult LoadBlazorComponent(string route)
-        {
-            RoutingHelper routingHelper = new RoutingHelper
-            {
-                RouteName = route,
-                IsShow = true
-            };
-
-            // Return the partial view with the model
-            return PartialView("_BlazorPagePartial", routingHelper);
-        }
-        public IActionResult Chart()
-        {
-            
-            // Return the partial view with the model
-            return View();
-        }
+        
         public IActionResult Privacy()
         {
             return View();

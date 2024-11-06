@@ -7,12 +7,12 @@ namespace DocTimes.Controllers
         public IActionResult WeeklyPlan(int? id)
         {
             // If the request is an AJAX request, return the partial view only
-            if (HttpContext.Request.Headers["X-Requested-With"] == "XMLHttpRequest")
-            {
-                return PartialView("WeeklyPlan");
-            }
+            //if (HttpContext.Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+            //{
+            //    return PartialView("WeeklyPlan");
+            //}
 
-            return View("WeeklyPlan");  // Full view if not an AJAX request
+            return PartialView("WeeklyPlan");  // Full view if not an AJAX request
            
         }
     }

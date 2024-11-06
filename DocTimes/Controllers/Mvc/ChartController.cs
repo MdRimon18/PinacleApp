@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace DocTimes.Controllers
+namespace DocTimes.Controllers.Mvc
 {
-    public class PatientController : Controller
+    public class ChartController : Controller
     {
         public IActionResult Index(bool isPartial = false)
         {
@@ -16,17 +16,6 @@ namespace DocTimes.Controllers
                 return PartialView("Index");
             }
             return View("Index");
-            
-        }
-        public IActionResult List(bool isPartial = false)
-        {
-            // If the request is an AJAX request, return the partial view only
-            if (isPartial)
-            {
-                return PartialView("List");
-            }
-
-            return View();
 
         }
     }
