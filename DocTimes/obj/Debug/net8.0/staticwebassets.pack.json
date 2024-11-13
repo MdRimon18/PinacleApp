@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DocTimes.bundle.scp.css",
-      "PackagePath": "staticwebassets\\DocTimes.bundle.scp.css"
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TradeApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TradeApp.bundle.scp.css"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\CommonImage\\no-image.png",
@@ -2061,8 +2061,28 @@
       "PackagePath": "staticwebassets\\assets\\v2\\css\\aos.css"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\css\\custom(11-10-24).css",
+      "PackagePath": "staticwebassets\\assets\\v2\\css\\custom(11-10-24).css"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\css\\custom(12-10-24).css",
+      "PackagePath": "staticwebassets\\assets\\v2\\css\\custom(12-10-24).css"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\css\\custom(25-9-24).css",
+      "PackagePath": "staticwebassets\\assets\\v2\\css\\custom(25-9-24).css"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\css\\custom(30-9-24).css",
+      "PackagePath": "staticwebassets\\assets\\v2\\css\\custom(30-9-24).css"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\css\\custom.css",
       "PackagePath": "staticwebassets\\assets\\v2\\css\\custom.css"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\css\\custom1.css",
+      "PackagePath": "staticwebassets\\assets\\v2\\css\\custom1.css"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\css\\custom_(29-8-24).css",
@@ -2073,6 +2093,10 @@
       "PackagePath": "staticwebassets\\assets\\v2\\css\\custom_bk.css"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\css\\custom_prv.css",
+      "PackagePath": "staticwebassets\\assets\\v2\\css\\custom_prv.css"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\css\\dropzone.css",
       "PackagePath": "staticwebassets\\assets\\v2\\css\\dropzone.css"
     },
@@ -2081,12 +2105,56 @@
       "PackagePath": "staticwebassets\\assets\\v2\\css\\fonts.css"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\css\\index.css",
+      "PackagePath": "staticwebassets\\assets\\v2\\css\\index.css"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\css\\m_style (4).css",
+      "PackagePath": "staticwebassets\\assets\\v2\\css\\m_style (4).css"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\css\\m_style(11-10-24).css",
+      "PackagePath": "staticwebassets\\assets\\v2\\css\\m_style(11-10-24).css"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\css\\m_style.css",
+      "PackagePath": "staticwebassets\\assets\\v2\\css\\m_style.css"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\css\\m_style1.css",
+      "PackagePath": "staticwebassets\\assets\\v2\\css\\m_style1.css"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\css\\m_style_prv.css",
+      "PackagePath": "staticwebassets\\assets\\v2\\css\\m_style_prv.css"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\css\\responsive(30-9-24).css",
+      "PackagePath": "staticwebassets\\assets\\v2\\css\\responsive(30-9-24).css"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\css\\responsive.css",
       "PackagePath": "staticwebassets\\assets\\v2\\css\\responsive.css"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\css\\responsive_(29-8-24).css",
+      "PackagePath": "staticwebassets\\assets\\v2\\css\\responsive_(29-8-24).css"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\css\\responsive_.css",
+      "PackagePath": "staticwebassets\\assets\\v2\\css\\responsive_.css"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\css\\responsive_1.css",
+      "PackagePath": "staticwebassets\\assets\\v2\\css\\responsive_1.css"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\css\\responsive_bk.css",
       "PackagePath": "staticwebassets\\assets\\v2\\css\\responsive_bk.css"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\css\\responsive_prev.css",
+      "PackagePath": "staticwebassets\\assets\\v2\\css\\responsive_prev.css"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\css\\sidebar-demo.css",
@@ -11533,6 +11601,86 @@
       "PackagePath": "staticwebassets\\assets\\v2\\images\\users\\profile.png"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\New folder\\female.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\New folder\\female.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\New folder\\female.svg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\New folder\\female.svg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\New folder\\male.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\New folder\\male.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\New folder\\male.svg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\New folder\\male.svg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\New folder\\p-1.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\New folder\\p-1.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\New folder\\p-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\New folder\\p-10.jpg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\New folder\\p-10.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\New folder\\p-10.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\New folder\\p-2.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\New folder\\p-2.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\New folder\\p-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\New folder\\p-3.jpg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\New folder\\p-3.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\New folder\\p-3.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\New folder\\p-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\New folder\\p-4.jpg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\New folder\\p-4.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\New folder\\p-4.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\New folder\\p-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\New folder\\p-5.jpg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\New folder\\p-5.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\New folder\\p-5.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\New folder\\p-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\New folder\\p-6.jpg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\New folder\\p-6.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\New folder\\p-6.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\New folder\\p-7.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\New folder\\p-7.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\New folder\\p-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\New folder\\p-8.jpg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\New folder\\p-8.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\New folder\\p-8.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\New folder\\p-9.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\New folder\\p-9.png"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\agent-user\\agent-img.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\agent-user\\agent-img.png"
     },
@@ -11645,8 +11793,16 @@
       "PackagePath": "staticwebassets\\assets\\v2\\img\\bxs-sun.svg"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\chat-banner.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\chat-banner.png"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\chat-bg.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\chat-bg.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\chat-box\\company-logo.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\chat-box\\company-logo.png"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\chat-list-icon\\completed-call-dark.png",
@@ -11725,8 +11881,36 @@
       "PackagePath": "staticwebassets\\assets\\v2\\img\\contacts\\img-2.png"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\contacts\\user-img.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\contacts\\user-img.png"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\dark-logo.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\dark-logo.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\dashboard\\active-chat.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\dashboard\\active-chat.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\dashboard\\available-agent.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\dashboard\\available-agent.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\dashboard\\engaged-visitor.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\dashboard\\engaged-visitor.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\dashboard\\idle-chat.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\dashboard\\idle-chat.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\dashboard\\queue.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\dashboard\\queue.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\dashboard\\visitor-img.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\dashboard\\visitor-img.png"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\emoj\\angry.png",
@@ -11801,6 +11985,18 @@
       "PackagePath": "staticwebassets\\assets\\v2\\img\\g-img.png"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\gung-chart.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\gung-chart.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\gung-chart1.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\gung-chart1.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\active-calender.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\active-calender.png"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\active-mic.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\active-mic.png"
     },
@@ -11819,6 +12015,14 @@
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\ads_click1.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\ads_click1.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\advisor-icon.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\advisor-icon.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\advisor-icon1.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\advisor-icon1.png"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\agent-img.png",
@@ -11845,12 +12049,32 @@
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\amount_icon.png"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\animation-img.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\animation-img.png"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\arrow_drop_down.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\arrow_drop_down.png"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\article.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\article.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\article1.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\article1.png"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\article_shortcut.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\article_shortcut.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\attach_file.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\attach_file.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\attach_file1.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\attach_file1.png"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\attached.png",
@@ -11871,6 +12095,22 @@
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\audio-wave.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\audio-wave.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\balnce-icon.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\balnce-icon.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\calendar.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\calendar.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\calendar_img.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\calendar_img.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\calendar_img1.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\calendar_img1.png"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\calendar_month-icon.png",
@@ -11985,6 +12225,10 @@
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\check-mark.png"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\check_circle.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\check_circle.png"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\chevron_left1.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\chevron_left1.png"
     },
@@ -11995,6 +12239,10 @@
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\chevron_right1.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\chevron_right1.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\chevron_up.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\chevron_up.png"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\clock-img.png",
@@ -12073,12 +12321,20 @@
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\copy-icon.png"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\copy_icon.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\copy_icon.png"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\dashboard-active.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\dashboard-active.png"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\dashboard.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\dashboard.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\data-memory-img.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\data-memory-img.png"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\deal.png",
@@ -12091,6 +12347,30 @@
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\delete.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\delete.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\delete_icon.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\delete_icon.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\delete_icon_dark.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\delete_icon_dark.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\desktop.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\desktop.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\desktop1.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\desktop1.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\desktop_landscape.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\desktop_landscape.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\desktop_landscape1.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\desktop_landscape1.png"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\desktop_windows.png",
@@ -12149,6 +12429,22 @@
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\edits-icon.png"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\edits_icon.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\edits_icon.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\edits_icon_dark.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\edits_icon_dark.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\email-icon.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\email-icon.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\email-icon1.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\email-icon1.png"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\emoj.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\emoj.png"
     },
@@ -12171,6 +12467,14 @@
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\end-call.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\end-call.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\envolve.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\envolve.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\envolve1.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\envolve1.png"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\fb-icon.png",
@@ -12309,6 +12613,18 @@
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\import_contacts.png"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\inbox-icon.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\inbox-icon.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\info-icon.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\info-icon.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\info-icon1.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\info-icon1.png"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\ins-icon.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\ins-icon.png"
     },
@@ -12357,12 +12673,28 @@
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\mail-img1.png"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\mark_unread_chat_alt.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\mark_unread_chat_alt.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\mark_unread_chat_alt1.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\mark_unread_chat_alt1.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\meeting-img.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\meeting-img.png"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\mic-img.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\mic-img.png"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\mic_img.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\mic_img.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\mic_img1.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\mic_img1.png"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\mic_off.png",
@@ -12381,6 +12713,14 @@
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\microphone_dark.png"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\normal-calender.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\normal-calender.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\normal-calender1.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\normal-calender1.png"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\off_video.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\off_video.png"
     },
@@ -12395,6 +12735,26 @@
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\performance-icon.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\performance-icon.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\phone-img.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\phone-img.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\phone-img1.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\phone-img1.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\phone_enabled.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\phone_enabled.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\phone_enabled1.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\phone_enabled1.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\picture_as_pdf.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\picture_as_pdf.png"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\pipline-dark-icon.png",
@@ -12429,6 +12789,18 @@
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\pregentation-img.png"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\price-icon.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\price-icon.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\price-icon1.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\price-icon1.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\process-memory.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\process-memory.png"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\product-small-box.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\product-small-box.png"
     },
@@ -12445,8 +12817,16 @@
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\products-img.png"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\profile-icon.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\profile-icon.png"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\prompt-icon.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\prompt-icon.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\purches-img.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\purches-img.png"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\q-a.png",
@@ -12495,6 +12875,10 @@
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\rec-off.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\rec-off.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\recent_activity.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\recent_activity.png"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\removed-icon.png",
@@ -12653,6 +13037,14 @@
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\text_dark.png"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\thumb_down.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\thumb_down.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\thumb_up.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\thumb_up.png"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\ticket-img.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\ticket-img.png"
     },
@@ -12721,6 +13113,10 @@
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\url-icon.png"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\used-data-img.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\used-data-img.png"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\user-chat-dark.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\user-chat-dark.png"
     },
@@ -12769,6 +13165,14 @@
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\videocam.png"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\videocam_icon.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\videocam_icon.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\videocam_icon_active.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\videocam_icon_active.png"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\videocam_off.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\videocam_off.png"
     },
@@ -12781,6 +13185,30 @@
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\view_list.png"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\voice-rec.gif",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\voice-rec.gif"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\voice-rec.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\voice-rec.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\voice-rec1.gif",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\voice-rec1.gif"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\voice-rec2.gif",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\voice-rec2.gif"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\voice-rec3.gif",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\voice-rec3.gif"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\voice_rec.gif",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\voice_rec.gif"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\volume.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\volume.png"
     },
@@ -12791,6 +13219,14 @@
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\volume_dark.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\volume_dark.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\volume_mute.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\volume_mute.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\volume_up.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\volume_up.png"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\watch.png",
@@ -12809,6 +13245,10 @@
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\web-icon.png"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\web-icon1.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\web-icon1.png"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\web_icon.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\web_icon.png"
     },
@@ -12825,12 +13265,40 @@
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\whts-icon.png"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\wisemind-img.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\wisemind-img.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\wisemind-img1.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\wisemind-img1.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\wismind-dark-logo.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\wismind-dark-logo.png"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\world-img.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\world-img.png"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\world-img1.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\world-img1.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\icon\\world-img_active.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\icon\\world-img_active.png"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\img-1.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\img-1.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\iphone.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\iphone.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\loading1.gif",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\loading1.gif"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\login-bg.png",
@@ -12851,6 +13319,86 @@
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\map-img.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\map-img.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\memory-img\\Group 1707488109.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\memory-img\\Group 1707488109.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\memory-img\\Picflow Images Sep 19.zip",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\memory-img\\Picflow Images Sep 19.zip"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\memory-img\\Picflow Images Sep 19\\left-angel.gif",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\memory-img\\Picflow Images Sep 19\\left-angel.gif"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\memory-img\\Picflow Images Sep 19\\right-angle.gif",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\memory-img\\Picflow Images Sep 19\\right-angle.gif"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\memory-img\\ani-img.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\memory-img\\ani-img.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\memory-img\\data-img.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\memory-img\\data-img.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\memory-img\\face-img.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\memory-img\\face-img.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\memory-img\\face.svg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\memory-img\\face.svg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\memory-img\\head-img.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\memory-img\\head-img.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\memory-img\\left-angel.svg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\memory-img\\left-angel.svg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\memory-img\\left-angel_c6764c08.gif",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\memory-img\\left-angel_c6764c08.gif"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\memory-img\\left-brain.svg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\memory-img\\left-brain.svg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\memory-img\\left-engle.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\memory-img\\left-engle.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\memory-img\\left-memory.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\memory-img\\left-memory.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\memory-img\\middle-img.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\memory-img\\middle-img.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\memory-img\\right-angle.svg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\memory-img\\right-angle.svg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\memory-img\\right-brain.svg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\memory-img\\right-brain.svg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\memory-img\\right-engle.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\memory-img\\right-engle.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\memory-img\\right-memory.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\memory-img\\right-memory.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\memory-img\\right-memory1.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\memory-img\\right-memory1.png"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\menu-icon.png",
@@ -12893,12 +13441,44 @@
       "PackagePath": "staticwebassets\\assets\\v2\\img\\power-logo.png"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\prd1.jpg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\prd1.jpg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\prd2.jpg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\prd2.jpg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\prd4.jpg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\prd4.jpg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\prd6.jpg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\prd6.jpg"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\product\\img-1.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\product\\img-1.png"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\product\\img1.avif",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\product\\img1.avif"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\product\\img1.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\product\\img1.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\robot-img.svg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\robot-img.svg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\robotic-bg.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\robotic-bg.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\robotic-bg1.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\robotic-bg1.png"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\royex-logo-dark.png",
@@ -12917,12 +13497,164 @@
       "PackagePath": "staticwebassets\\assets\\v2\\img\\ry-logo.png"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\account_circle.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\account_circle.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\account_circle_dark.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\account_circle_dark.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\acute.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\acute.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\acute_dark.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\acute_dark.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\adaptive_audio_mic.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\adaptive_audio_mic.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\adaptive_audio_mic_dark.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\adaptive_audio_mic_dark.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\badge.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\badge.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\badge_dark.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\badge_dark.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\confirmation_number.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\confirmation_number.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\confirmation_number_dark.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\confirmation_number_dark.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\contact_emergency.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\contact_emergency.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\contact_emergency_dark.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\contact_emergency_dark.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\deployed_code_account.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\deployed_code_account.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\deployed_code_account_dark.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\deployed_code_account_dark.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\editor_choice.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\editor_choice.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\editor_choice_dark.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\editor_choice_dark.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\handshake.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\handshake.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\handshake_dark.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\handshake_dark.png"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\img-1.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\img-1.png"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\img-1_dark.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\img-1_dark.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\integration_instructions.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\integration_instructions.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\integration_instructions_dark.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\integration_instructions_dark.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\local_activity.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\local_activity.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\local_activity_dark.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\local_activity_dark.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\meeting_list.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\meeting_list.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\meeting_list_dark.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\meeting_list_dark.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\person_check.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\person_check.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\person_check_dark.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\person_check_dark.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\picture_in_picture_alt.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\picture_in_picture_alt.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\picture_in_picture_alt_dark.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\picture_in_picture_alt_dark.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\problem.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\problem.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\problem_dark.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\problem_dark.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\robot_2.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\robot_2.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\robot_2_dark.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\robot_2_dark.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\sdk.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\sdk.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\sdk_dark.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\sdk_dark.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\support_agent.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\support_agent.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\support_agent_dark.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\support_agent_dark.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\switch_account.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\switch_account.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\setting\\switch_account_dark.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\setting\\switch_account_dark.png"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\sign-up-bg.png",
@@ -12969,16 +13701,120 @@
       "PackagePath": "staticwebassets\\assets\\v2\\img\\thankyou-bg.png"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\upload_img.svg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\upload_img.svg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\upload_modal-image\\female.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\upload_modal-image\\female.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\upload_modal-image\\female.svg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\upload_modal-image\\female.svg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\upload_modal-image\\male.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\upload_modal-image\\male.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\upload_modal-image\\male.svg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\upload_modal-image\\male.svg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\upload_modal-image\\p-1.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\upload_modal-image\\p-1.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\upload_modal-image\\p-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\upload_modal-image\\p-10.jpg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\upload_modal-image\\p-10.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\upload_modal-image\\p-10.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\upload_modal-image\\p-2.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\upload_modal-image\\p-2.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\upload_modal-image\\p-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\upload_modal-image\\p-3.jpg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\upload_modal-image\\p-3.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\upload_modal-image\\p-3.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\upload_modal-image\\p-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\upload_modal-image\\p-4.jpg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\upload_modal-image\\p-4.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\upload_modal-image\\p-4.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\upload_modal-image\\p-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\upload_modal-image\\p-5.jpg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\upload_modal-image\\p-5.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\upload_modal-image\\p-5.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\upload_modal-image\\p-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\upload_modal-image\\p-6.jpg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\upload_modal-image\\p-6.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\upload_modal-image\\p-6.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\upload_modal-image\\p-7.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\upload_modal-image\\p-7.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\upload_modal-image\\p-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\upload_modal-image\\p-8.jpg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\upload_modal-image\\p-8.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\upload_modal-image\\p-8.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\upload_modal-image\\p-9.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\upload_modal-image\\p-9.png"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\user-1.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\user-1.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\user-img\\chat-user.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\user-img\\chat-user.png"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\user-img\\img-1.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\user-img\\img-1.png"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\user-img\\img1.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\user-img\\img1.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\user-img\\img2.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\user-img\\img2.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\user-img\\no-user-img.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\user-img\\no-user-img.png"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\user-img\\placeholder.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\user-img\\placeholder.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\user-img\\profile-pic.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\user-img\\profile-pic.png"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\user-img\\sc-img.png",
@@ -13029,6 +13865,10 @@
       "PackagePath": "staticwebassets\\assets\\v2\\img\\user-img\\user_3.png"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\user-img\\wismind-logo.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\user-img\\wismind-logo.png"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\video-bg.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\video-bg.png"
     },
@@ -13043,6 +13883,22 @@
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\video-img1.png",
       "PackagePath": "staticwebassets\\assets\\v2\\img\\video-img1.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\wismind-dark-logo.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\wismind-dark-logo.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\wismind-logo.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\wismind-logo.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\img\\wismind-small-logo.png",
+      "PackagePath": "staticwebassets\\assets\\v2\\img\\wismind-small-logo.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\js\\gauge.min.js",
+      "PackagePath": "staticwebassets\\assets\\v2\\js\\gauge.min.js"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\js\\nouislider.min.js",
@@ -27769,6 +28625,22 @@
       "PackagePath": "staticwebassets\\assets\\v2\\libs\\gaugeJS\\dist\\gauge.min.js"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\libs\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\assets\\v2\\libs\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\libs\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\assets\\v2\\libs\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\libs\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\assets\\v2\\libs\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\libs\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\assets\\v2\\libs\\glightbox\\js\\glightbox.min.js"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\v2\\libs\\gmaps\\CONTRIBUTING.md",
       "PackagePath": "staticwebassets\\assets\\v2\\libs\\gmaps\\CONTRIBUTING.md"
     },
@@ -35153,6 +36025,10 @@
       "PackagePath": "staticwebassets\\assets\\video\\beach.webm"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -36477,20 +37353,20 @@
       "PackagePath": "staticwebassets\\vendors\\validator\\validator.min.js"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DocTimes.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TradeApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DocTimes.props",
-      "PackagePath": "build\\DocTimes.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TradeApp.props",
+      "PackagePath": "build\\TradeApp.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DocTimes.props",
-      "PackagePath": "buildMultiTargeting\\DocTimes.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TradeApp.props",
+      "PackagePath": "buildMultiTargeting\\TradeApp.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DocTimes.props",
-      "PackagePath": "buildTransitive\\DocTimes.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TradeApp.props",
+      "PackagePath": "buildTransitive\\TradeApp.props"
     }
   ],
   "ElementsToRemove": []

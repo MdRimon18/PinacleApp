@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\DoctorTimes\\DocTimes\\DocTimes\\DocTimes.csproj": {}
+    "G:\\TradeApp\\DocTimes\\DocTimes.csproj": {}
   },
   "projects": {
-    "G:\\DoctorTimes\\DocTimes\\DocTimes\\DocTimes.csproj": {
+    "G:\\TradeApp\\DocTimes\\DocTimes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\DoctorTimes\\DocTimes\\DocTimes\\DocTimes.csproj",
+        "projectUniqueName": "G:\\TradeApp\\DocTimes\\DocTimes.csproj",
         "projectName": "DocTimes",
-        "projectPath": "G:\\DoctorTimes\\DocTimes\\DocTimes\\DocTimes.csproj",
+        "projectPath": "G:\\TradeApp\\DocTimes\\DocTimes.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "G:\\DoctorTimes\\DocTimes\\DocTimes\\obj\\",
+        "outputPath": "G:\\TradeApp\\DocTimes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,8 +34,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "G:\\DoctorTimes\\DocTimes\\Domain\\Domain.csproj": {
-                "projectPath": "G:\\DoctorTimes\\DocTimes\\Domain\\Domain.csproj"
+              "G:\\TradeApp\\Domain\\Domain.csproj": {
+                "projectPath": "G:\\TradeApp\\Domain\\Domain.csproj"
               }
             }
           }
@@ -103,14 +103,14 @@
         }
       }
     },
-    "G:\\DoctorTimes\\DocTimes\\Domain\\Domain.csproj": {
+    "G:\\TradeApp\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\DoctorTimes\\DocTimes\\Domain\\Domain.csproj",
+        "projectUniqueName": "G:\\TradeApp\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "G:\\DoctorTimes\\DocTimes\\Domain\\Domain.csproj",
+        "projectPath": "G:\\TradeApp\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "G:\\DoctorTimes\\DocTimes\\Domain\\obj\\",
+        "outputPath": "G:\\TradeApp\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

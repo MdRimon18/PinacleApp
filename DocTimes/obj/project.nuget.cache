@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "mMJAxEK2xcEdw1qnexskygurRVSAbEjcKuekELR8GamKWNk9geBmgfXXYqB+JL60xD0qYXeIjFKNTah0PjypqA==",
+  "dgSpecHash": "kIjr7vfxV6y5ZhYwterGLcNL79mZpBb7oBRM2XSGVFJojbiWnU5wFgiNLADS6dkStXY0+KReTmJRUzFQvvV4EA==",
   "success": true,
-  "projectFilePath": "G:\\DoctorTimes\\DocTimes\\DocTimes\\DocTimes.csproj",
+  "projectFilePath": "G:\\DoctorTimes\\DocTimes\\DocTimes\\TradeApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
@@ -133,6 +134,7 @@
     "C:\\Users\\Dell\\.nuget\\packages\\nuget.projectmodel\\6.11.0\\nuget.projectmodel.6.11.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\nuget.protocol\\6.11.0\\nuget.protocol.6.11.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\nuget.versioning\\6.11.0\\nuget.versioning.6.11.0.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\qrcoder\\1.6.0\\qrcoder.1.6.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\system.codedom\\5.0.0\\system.codedom.5.0.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\system.composition\\7.0.0\\system.composition.7.0.0.nupkg.sha512",
