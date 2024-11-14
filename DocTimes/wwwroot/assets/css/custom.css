@@ -31,7 +31,7 @@
     color: var(--label-color);
 }
 
-.form-rounded {
+.form-control {
     border-radius: .7rem;
 }
 

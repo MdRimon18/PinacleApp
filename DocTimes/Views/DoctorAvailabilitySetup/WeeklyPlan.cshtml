@@ -1,3 +1,231 @@
-﻿ 
-<h1>WeeklyPlan</h1>
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="robots" content="noindex,nofollow">
+    <title>Eyanna || Knowledge Hub Add Question</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="~/assets/v2/img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="~/assets/v2/libs/select2/dist/css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="~/assets/v2/extra-libs/prism/prism.css">
+    <!-- Custom CSS -->
+    <link href="~/assets/v2/css/fonts.css" rel="stylesheet">
+    <link href="~/assets/v2/dist/css/style.min.css" rel="stylesheet">
+    <link href="~/assets/v2/css/custom.css" rel="stylesheet">
+    <link href="~/assets/v2/css/responsive.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:/ -->
+    <!--[if lt IE 9]>
+        <script src="https:/oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https:/oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- -------------------------------------------------------------- -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- -------------------------------------------------------------- -->
+    <div class="preloader">
+        <img src="~/assets/v2/img/favicon.png" alt="loading-icon" class="img-fluid tea lds-ripple">
+        <!-- <svg class="tea lds-ripple" width="37" height="48" viewbox="0 0 37 48" fill="none" xmlns="http:/www.w3.org/2000/svg">
+          <path d="M27.0819 17H3.02508C1.91076 17 1.01376 17.9059 1.0485 19.0197C1.15761 22.5177 1.49703 29.7374 2.5 34C4.07125 40.6778 7.18553 44.8868 8.44856 46.3845C8.79051 46.79 9.29799 47 9.82843 47H20.0218C20.639 47 21.2193 46.7159 21.5659 46.2052C22.6765 44.5687 25.2312 40.4282 27.5 34C28.9757 29.8188 29.084 22.4043 29.0441 18.9156C29.0319 17.8436 28.1539 17 27.0819 17Z" stroke="#2962FF" stroke-width="2"></path>
+          <path d="M29 23.5C29 23.5 34.5 20.5 35.5 25.4999C36.0986 28.4926 34.2033 31.5383 32 32.8713C29.4555 34.4108 28 34 28 34" stroke="#2962FF" stroke-width="2"></path>
+          <path id="teabag" fill="#2962FF" fill-rule="evenodd" clip-rule="evenodd" d="M16 25V17H14V25H12C10.3431 25 9 26.3431 9 28V34C9 35.6569 10.3431 37 12 37H18C19.6569 37 21 35.6569 21 34V28C21 26.3431 19.6569 25 18 25H16ZM11 28C11 27.4477 11.4477 27 12 27H18C18.5523 27 19 27.4477 19 28V34C19 34.5523 18.5523 35 18 35H12C11.4477 35 11 34.5523 11 34V28Z"></path>
+          <path id="steamL" d="M17 1C17 1 17 4.5 14 6.5C11 8.5 11 12 11 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#2962FF"></path>
+          <path id="steamR" d="M21 6C21 6 21 8.22727 19 9.5C17 10.7727 17 13 17 13" stroke="#2962FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg> -->
+    </div>
+    <!-- -------------------------------------------------------------- -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- -------------------------------------------------------------- -->
+    <div id="main-wrapper">
+        
+      
+        <div class="page-wrapper inner-page-wrapper">
+            <div class="container-fluid">
+                <div class="chat-list-box hub-list-box p-0">
+                    <div class="qus-list-box">
+                        <div class="left-col">
+                            <div class="hub-left-box">
+                                <div class="top-hub-box flex-column">
+                                    <div class="top-hub-title">
+                                        <h3>question and answer List <span>(45)</span></h3>
+                                    </div>
+                                    <div class="filter-box p-0 w-100">
+                                        <div class="input-group flex-nowrap" style="padding: 12px 20px;">
+                                            <input type="text" id="myInput" class="form-control" placeholder="Search here" aria-label="Search here" aria-describedby="button-addon2">
+                                            <button class="btn search-btn" type="button" id="button-addon2"><svg xmlns="http:/www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search feather-sm"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hub-product-list qus-list scrollable custom-scrollbar-css clearfix" id="myList" style="height:calc(100vh - 229px); padding: 8px 30px 20px 1rem;">
+                                    <ul class="nav flex-column nav-pills" id="myTab" role="tablist" aria-orientation="vertical">
+                                        <!-- Start Qus-list -->
+                                        <li class="nav-item" role="presentation">
+                                            <a href="#" class="nav-link active" id="qus_1-tab" data-bs-toggle="pill" data-bs-target="#qus_1" role="tab" aria-controls="qus_1" aria-selected="true">
+                                                <div class="qus-card-box">
+                                                    <span class="qus-badge">1</span>
+                                                    <div class="qus-card-body">
+                                                        <h5>Lorem ipsum dolor sit amet, consectetur?</h5>
+                                                        <p>usce hendrerit lacinia dui, vitae ve dolor elementum at. cursus...</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <!-- End qus List -->
+                                        <!-- Start Qus-list -->
+                                        <li class="nav-item" role="presentation">
+                                            <a href="#" class="nav-link" id="qus_2-tab" data-bs-toggle="pill" data-bs-target="#qus_2" role="tab" aria-controls="qus_2" aria-selected="false">
+                                                <div class="qus-card-box">
+                                                    <span class="qus-badge">2</span>
+                                                    <div class="qus-card-body">
+                                                        <h5>Mauris ultrices metus nisl ullamr cursus?</h5>
+                                                        <p>usce hendrerit lacinia dui, vitae ve dolor elementum at.  cursus...</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <!-- End qus List -->
+                                        <!-- Start Qus-list -->
+                                        <li class="nav-item" role="presentation">
+                                            <a href="#" class="nav-link" id="qus_3-tab" data-bs-toggle="pill" data-bs-target="#qus_3" role="tab" aria-controls="qus_3" aria-selected="false">
+                                                <div class="qus-card-box">
+                                                    <span class="qus-badge">3</span>
+                                                    <div class="qus-card-body">
+                                                        <h5>Lorem ipsum dolor sit amet, consectetur?</h5>
+                                                        <p>usce hendrerit lacinia dui, vitae ve dolor elementum at.  cursus...</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <!-- End qus List -->
+                                        <!-- Start Qus-list -->
+                                        <li class="nav-item" role="presentation">
+                                            <a href="#" class="nav-link" id="qus_4-tab" data-bs-toggle="pill" data-bs-target="#qus_4" role="tab" aria-controls="qus_4" aria-selected="false">
+                                                <div class="qus-card-box">
+                                                    <span class="qus-badge">4</span>
+                                                    <div class="qus-card-body">
+                                                        <h5>Lorem ipsum dolor sit amet, consectetur?</h5>
+                                                        <p>usce hendrerit lacinia dui, vitae ve dolor elementum at.  cursus...</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <!-- End qus List -->
+                                    </ul>
+                                </div>
+                                <!-- <ul id="myList">
+                                    <li>First item</li>
+                                    <li>Second item</li>
+                                    <li>Third item</li>
+                                    <li>Fourth</li>
+                                  </ul> -->
+
+                            </div>
+                        </div>
+                        <div class="right-col w-100">
+                            <div class="hub-right-box qus-right-box">
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="qus-box">
+                                        <div class="inner-tab-title" style="margin-bottom: 30px;">
+                                            <h5>Add question and answer</h5>
+                                        </div>
+                                        <div class="add-qus-box">
+                                            <form class="qus-form" action="" method="get">
+                                                <div class="form-group">
+                                                    <label class="form-label">Question Category</label>
+                                                    <select class="form-select form-control" aria-label="Default select example">
+                                                        <option selected="">Select Question Category</option>
+                                                        <option value="1">Select Question Category One</option>
+                                                        <option value="2">Select Question Category Two</option>
+                                                        <option value="3">Select Question Category Three</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label">question</label>
+                                                    <input type="text" class="form-control" placeholder="Enter your question" name="qus">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label">answer</label>
+                                                    <textarea class="form-control" rows="7" placeholder="Enter your answer"></textarea>
+                                                </div>
+                                                <div class="form-group action-btns justify-content-start">
+                                                    <button type="button" class="btn cancle-btn">cancel</button>
+                                                    <button type="submit" class="btn add-btn">Save</button>
+                                                    <button type="button" class="btn more-btn">Add More</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------------------------------------------- -->
+            <!-- End Container fluid  -->
+            <!-- -------------------------------------------------------------- -->
+        </div>
+        <!-- -------------------------------------------------------------- -->
+        <!-- End Page wrapper  -->
+        <!-- -------------------------------------------------------------- -->
+    </div>
+    <!-- -------------------------------------------------------------- -->
+    <!-- End Wrapper -->
+    <!-- -------------------------------------------------------------- -->
+    <!-- -------------------------------------------------------------- -->
+    <!-- All Jquery -->
+    <!-- -------------------------------------------------------------- -->
+    <script src="~/assets/v2/libs/jquery/dist/jquery.min.js"></script>
+    <script src="~/assets/v2/extra-libs/taskboard/js/jquery.ui.touch-punch-improved.js"></script>
+    <script src="~/assets/v2/extra-libs/taskboard/js/jquery-ui.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="~/assets/v2/libs/popper.js/popper.min.js"></script>
+    <script src="~/assets/v2/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- apps -->
+    <script src="~/assets/v2/dist/js/app.min.js"></script>
+    <script src="~/assets/v2/dist/js/app.init.mini-sidebar.js"></script>
+    <script src="~/assets/v2/dist/js/app-style-switcher.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="~/assets/v2/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="~/assets/v2/extra-libs/sparkline/sparkline.js"></script>
+    <!--Wave Effects -->
+    <script src="~/assets/v2/dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="~/assets/v2/dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="~/assets/v2/dist/js/feather.min.js"></script>
+    <script src="~/assets/v2/dist/js/custom.min.js"></script>
+    <!-- Chart JS -->
+    <script src="~/assets/v2/dist/js/pages/chat/chat.js"></script>
+    <!-- This Page JS -->
+    <script src="~/assets/v2/libs/select2/dist/js/select2.full.min.js"></script>
+    <script src="~/assets/v2/libs/select2/dist/js/select2.min.js"></script>
+    <script src="~/assets/v2/extra-libs/prism/prism.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#myInput").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#myList li").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+    </script>
+
+    
+</body>
+
+</html>
