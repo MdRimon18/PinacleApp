@@ -17,83 +17,123 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DocTimes
 build_property.RootNamespace = DocTimes
-build_property.ProjectDir = G:\TradeApp\DocTimes\
+build_property.ProjectDir = G:\DoctorTimes\DocTimes\DocTimes\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = G:\TradeApp\DocTimes
+build_property.MSBuildProjectDirectory = G:\DoctorTimes\DocTimes\DocTimes
 build_property._RazorSourceGeneratorDebug = 
 
-[G:/TradeApp/DocTimes/Areas/Identity/Pages/_ViewStart.cshtml]
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Services/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/DoctorTimes/DocTimes/DocTimes/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/TradeApp/DocTimes/Views/Booking/Calendar.cshtml]
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Booking/Calendar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xDYWxlbmRhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/TradeApp/DocTimes/Views/Chart/Index.cshtml]
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Chart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/TradeApp/DocTimes/Views/DoctorAvailabilitySetup/WeeklyPlan.cshtml]
+[G:/DoctorTimes/DocTimes/DocTimes/Views/DoctorAvailabilitySetup/WeeklyPlan.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yQXZhaWxhYmlsaXR5U2V0dXBcV2Vla2x5UGxhbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/TradeApp/DocTimes/Views/Home/Calendar.cshtml]
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Doctor/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Home/Calendar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYWxlbmRhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/TradeApp/DocTimes/Views/Home/Index.cshtml]
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/TradeApp/DocTimes/Views/Home/Privacy.cshtml]
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/TradeApp/DocTimes/Views/Patient/Index.cshtml]
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Invoice/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Invoice/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Invoice/PrintInvoice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZVxQcmludEludm9pY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Invoice/ShippingWithPayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZVxTaGlwcGluZ1dpdGhQYXltZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Patient/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/TradeApp/DocTimes/Views/Patient/List.cshtml]
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Patient/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/TradeApp/DocTimes/Views/Services/Payment.cshtml]
+[G:/DoctorTimes/DocTimes/DocTimes/Views/ProductSerialNumber/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFNlcmlhbE51bWJlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Services/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Services/Payment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcUGF5bWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/TradeApp/DocTimes/Views/Shared/Error.cshtml]
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/TradeApp/DocTimes/Views/Shared/_LoginPartial.cshtml]
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Shared/NavSideBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5hdlNpZGVCYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/TradeApp/DocTimes/Views/Shared/_MvcPages.cshtml]
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Shared/_MvcPages.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NdmNQYWdlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/TradeApp/DocTimes/Views/Shared/_ValidationScriptsPartial.cshtml]
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Shared/_UpMenuLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9VcE1lbnVMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/TradeApp/DocTimes/Views/WorkStatus/Progress.cshtml]
+[G:/DoctorTimes/DocTimes/DocTimes/Views/WorkStatus/Progress.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya1N0YXR1c1xQcm9ncmVzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/TradeApp/DocTimes/Views/_ViewImports.cshtml]
+[G:/DoctorTimes/DocTimes/DocTimes/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/TradeApp/DocTimes/Views/_ViewStart.cshtml]
+[G:/DoctorTimes/DocTimes/DocTimes/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/TradeApp/DocTimes/Views/Shared/_Layout.cshtml]
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-pr199cnvs7

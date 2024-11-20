@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TradeApp.bundle.scp.css",
-      "PackagePath": "staticwebassets\\TradeApp.bundle.scp.css"
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DocTimes.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DocTimes.bundle.scp.css"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\CommonImage\\no-image.png",
@@ -37353,20 +37353,20 @@
       "PackagePath": "staticwebassets\\vendors\\validator\\validator.min.js"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TradeApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DocTimes.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TradeApp.props",
-      "PackagePath": "build\\TradeApp.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DocTimes.props",
+      "PackagePath": "build\\DocTimes.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TradeApp.props",
-      "PackagePath": "buildMultiTargeting\\TradeApp.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DocTimes.props",
+      "PackagePath": "buildMultiTargeting\\DocTimes.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TradeApp.props",
-      "PackagePath": "buildTransitive\\TradeApp.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DocTimes.props",
+      "PackagePath": "buildTransitive\\DocTimes.props"
     }
   ],
   "ElementsToRemove": []

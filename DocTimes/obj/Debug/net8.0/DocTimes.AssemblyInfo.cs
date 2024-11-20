@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DocTimes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39c2958a78c34085721f6b61ade248978485e8fe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a274ea0b8a7feb9ed3e756da98691b6bd8e756da")]
 [assembly: System.Reflection.AssemblyProductAttribute("DocTimes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DocTimes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -21,6 +21,8 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddRazorPages(); // Required for Blazor
+ 
 //IConfiguration configuration;
 
 //configuration = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
@@ -114,5 +116,5 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
-
+ 
 app.Run();
