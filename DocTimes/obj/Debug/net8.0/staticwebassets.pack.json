@@ -97,6 +97,18 @@
       "PackagePath": "staticwebassets\\assets\\CustomerImage\\July-2024\\d1b44a1f-4c79-4260-978b-8dc1c3764f41.PNG"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\Doctor\\Doctor1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Doctor\\Doctor1.jpg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\Doctor\\Doctor2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Doctor\\Doctor2.jpg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\Doctor\\Doctor3.jpg",
+      "PackagePath": "staticwebassets\\assets\\Doctor\\Doctor3.jpg"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\ProductImages\\September-2024\\2a3075d5-ffc9-4624-9622-9bfd0284bb1f.jpg",
       "PackagePath": "staticwebassets\\assets\\ProductImages\\September-2024\\2a3075d5-ffc9-4624-9622-9bfd0284bb1f.jpg"
     },
