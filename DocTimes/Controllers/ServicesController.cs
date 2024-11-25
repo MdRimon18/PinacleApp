@@ -29,6 +29,21 @@ namespace DocTimes.Controllers
             return PartialView("Payment");
 
         }
-         
+        public IActionResult Pricing(bool isPartial = false)
+        {
+            // If the request is an AJAX request, return the partial view only
+            //if (HttpContext.Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+            //{
+            //    return PartialView("Payment");
+            //}
+
+            if (isPartial)
+            {
+                return PartialView("Pricing");
+            }
+            return View("Pricing");
+
+        }
+
     }
 }
