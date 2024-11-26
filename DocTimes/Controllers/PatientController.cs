@@ -29,5 +29,16 @@ namespace DocTimes.Controllers
             return View();
 
         }
+        public IActionResult PaymentHistory(bool isPartial = false)
+        {
+            // If the request is an AJAX request, return the partial view only
+            if (isPartial)
+            {
+                return PartialView("List");
+            }
+
+            return View();
+
+        }
     }
 }
