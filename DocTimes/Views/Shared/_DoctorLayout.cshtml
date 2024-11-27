@@ -23,12 +23,14 @@
     <link rel="manifest" href="~/assets/img/favicons/manifest.json">
     <meta name="msapplication-TileImage" content="~/assets/img/favicons/mstile-150x150.png">
     <meta name="theme-color" content="#ffffff">
-  
+
+    <link href="~/vendors/fullcalendar/main.min.css" rel="stylesheet">
+    <link href="~/vendors/flatpickr/flatpickr.min.css" rel="stylesheet">
     <script src="~/assets/js/config.js"></script>
     <link href="~/vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
     <script src="~/vendors/simplebar/simplebar.min.js"></script>
     <link href="~/vendors/choices/choices.min.css" rel="stylesheet">
-    <link href="~/vendors/flatpickr/flatpickr.min.css" rel="stylesheet">
+   
     <link href="~/vendors/dropzone/dropzone.min.css" rel="stylesheet">
     <link href="~/assets/css/custom.css" rel="stylesheet" />
     <!-- ===============================================-->
@@ -124,7 +126,7 @@
                                         <!-- more inner pages-->
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" style="cursor:pointer" data-spa="Patient/List">
+                                        <a class="nav-link" style="cursor:pointer" href="/Patient/List">
                                             <div class="d-flex align-items-center">
                                                 <span class="nav-link-text ps-1">Patient List</span><span class="badge rounded-pill ms-2 badge-subtle-success">New</span>
                                             </div>
@@ -140,7 +142,7 @@
                                         <!-- more inner pages-->
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" style="cursor:pointer" data-spa="Patient/PaymentHistory">
+                                        <a class="nav-link" style="cursor:pointer" href="/Patient/PaymentHistory">
                                             <div class="d-flex align-items-center">
                                                 <span class="nav-link-text ps-1">Payment History</span><span class="badge rounded-pill ms-2 badge-subtle-success">New</span>
                                             </div>
@@ -148,7 +150,7 @@
                                         <!-- more inner pages-->
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" style="cursor:pointer"  href="/Invoice/create">
+                                        <a class="nav-link" style="cursor:pointer"  data-spa="Invoice/create">
                                             <div class="d-flex align-items-center">
                                                 <span class="nav-link-text ps-1">Invoice Create</span><span class="badge rounded-pill ms-2 badge-subtle-success">New</span>
                                             </div>
@@ -172,7 +174,7 @@
                                         <!-- more inner pages-->
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="/Services/Pricing">
+                                        <a class="nav-link" style="cursor:pointer" data-spa="Services/Pricing">
                                             <div class="d-flex align-items-center">
                                                 <span class="nav-link-text ps-1">Services Pricing </span>
                                             </div>
@@ -188,9 +190,9 @@
                                         <!-- more inner pages-->
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="/search_example">
+                                        <a class="nav-link" href="/Doctor/Calendar">
                                             <div class="d-flex align-items-center">
-                                                <span class="nav-link-text ps-1">Search Example</span>
+                                                <span class="nav-link-text ps-1">Calendar</span>
                                             </div>
                                         </a>
                                         <!-- more inner pages-->
@@ -849,6 +851,9 @@
     <script src="~/vendors/bootstrap/bootstrap.min.js"></script>
     <script src="~/vendors/anchorjs/anchor.min.js"></script>
     <script src="~/vendors/is/is.min.js"></script>
+    <script src="~/vendors/fullcalendar/main.min.js"></script>
+    <script src="~/assets/js/flatpickr.js"></script>
+    <script src="~/vendors/dayjs/dayjs.min.js"></script>
     <script src="~/vendors/tinymce/tinymce.min.js"></script>
     <script src="~/vendors/echarts/echarts.min.js"></script>
     <script src="~/vendors/fontawesome/all.min.js"></script>
@@ -858,7 +863,7 @@
     <script src="~/vendors/list.js/list.min.js"></script>
     <script src="~/assets/js/theme.js"></script>
     <script src="~/vendors/choices/choices.min.js"></script>
-    <script src="~/assets/js/flatpickr.js"></script>
+  
     <script src="~/vendors/dropzone/dropzone.min.js"></script>
     <script src="~/vendors/swiper/swiper-bundle.min.js"></script>
  

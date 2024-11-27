@@ -39,5 +39,18 @@ namespace DocTimes.Controllers
 
         }
 
+
+        public IActionResult Calendar(bool isPartial = false)
+        {
+            // If the request is an AJAX request, return the partial view only
+            if (isPartial)
+            {
+                return PartialView("Calendar");
+            }
+
+            return View();
+
+        }
+
     }
 }
