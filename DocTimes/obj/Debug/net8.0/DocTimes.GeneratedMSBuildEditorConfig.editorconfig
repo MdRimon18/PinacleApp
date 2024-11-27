@@ -42,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Chat/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [G:/DoctorTimes/DocTimes/DocTimes/Views/DoctorAvailabilitySetup/WeeklyPlan.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yQXZhaWxhYmlsaXR5U2V0dXBcV2Vla2x5UGxhbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
