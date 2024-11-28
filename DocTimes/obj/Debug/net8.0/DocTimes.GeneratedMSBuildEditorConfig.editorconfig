@@ -50,6 +50,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yQXZhaWxhYmlsaXR5U2V0dXBcV2Vla2x5UGxhbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[G:/DoctorTimes/DocTimes/DocTimes/Views/DoctorPrescription/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yUHJlc2NyaXB0aW9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/DoctorTimes/DocTimes/DocTimes/Views/DoctorPrescription/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yUHJlc2NyaXB0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [G:/DoctorTimes/DocTimes/DocTimes/Views/DoctorProfile/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yUHJvZmlsZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
