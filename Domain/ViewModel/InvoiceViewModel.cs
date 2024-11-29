@@ -24,6 +24,8 @@ namespace Domain.ViewModel
         public string CustomerEmail { get; set; }
         public string SearchQuery { get; set; }
         public string SrchQuery { get; set; }
+
+        public Suppliers Suppliers { get; set; }
     }
 
 }

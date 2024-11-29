@@ -20,7 +20,8 @@
         <button class="btn-close text-reset" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body bg-body-tertiary">
-        <CustomerEntry />
+        @await Html.PartialAsync("/Views/Patient/CreateProfile.cshtml",Model.Suppliers)
+
     </div>
 </div>
 
@@ -213,7 +214,7 @@
                                     <label for="chooseProduct" class="form-label fw-semi-bold">Mobile</label><span class="error-star">*</span>
                                     <div class="position-relative input-group">
                                         <input type="text" class="form-control form-control-sm form-rounded" placeholder="Search..." id="chooseProduct" />
-                                        <button class="btn btn-sm btn-light" type="button" id="plusButton" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight-1" aria-controls="offcanvasRight-1">+</button>
+                                        <button class="btn btn-sm btn-light" type="button" id="plusButton" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
                                     </div>
                                 </div>
                             </div>
