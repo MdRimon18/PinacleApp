@@ -113,6 +113,10 @@
       "PackagePath": "staticwebassets\\assets\\Doctor\\Doctor3.jpg"
     },
     {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\Doctor\\DoctorList.png",
+      "PackagePath": "staticwebassets\\assets\\Doctor\\DoctorList.png"
+    },
+    {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\ProductImages\\September-2024\\2a3075d5-ffc9-4624-9622-9bfd0284bb1f.jpg",
       "PackagePath": "staticwebassets\\assets\\ProductImages\\September-2024\\2a3075d5-ffc9-4624-9622-9bfd0284bb1f.jpg"
     },
@@ -659,6 +663,14 @@
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\img\\generic\\9.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\generic\\9.jpg"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\img\\generic\\DoctorDashboard.png",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\DoctorDashboard.png"
+    },
+    {
+      "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\img\\generic\\DoctorList.png",
+      "PackagePath": "staticwebassets\\assets\\img\\generic\\DoctorList.png"
     },
     {
       "Id": "G:\\DoctorTimes\\DocTimes\\DocTimes\\wwwroot\\assets\\img\\generic\\Frame-14.png",
