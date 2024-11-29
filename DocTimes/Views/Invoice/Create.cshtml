@@ -187,7 +187,7 @@
 
 
                             <div class="row g-3">
-                                <div class="col-lg-3 col-md-3 col-sm-9 col-9 animated-div">
+                               @*  <div class="col-lg-3 col-md-3 col-sm-9 col-9 animated-div">
                                     <div class="form-group">
                                         <label for="InvoiceType" class="form-label fw-semi-bold">Invoice Type</label><span class="error-star">*</span>
                                         <select asp-for="Invoice.InvoiceTypeId" id="InvoiceType" class="form-select form-rounded form-select-sm">
@@ -199,17 +199,24 @@
                                         </select>
                                         <span asp-validation-for="Invoice.InvoiceTypeId" class="text-danger"></span>
                                     </div>
-                                </div>
+                                </div> *@
 
-                                <div class="col-lg-3 col-md-3 col-sm-9 col-9 animated-div">
-                                    <div class="input-group">
-                                        <label for="customerMobileNo" class="form-label fw-semi-bold">Customer Mobile No</label><span class="error-star">*</span>
-                                        <input type="text" readonly name="customerMobileNo" id="customerMobileNo" class="form-control form-control-sm form-rounded" placeholder="Customer mobile no" />
-                                        <button class="btn btn-sm btn-light position-absolute top-0 end-0 h-100" type="button" id="plusButton" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
-                                        <span asp-validation-for="Invoice.InvoiceNumber" class="text-danger"></span>
+                           
+                            <div class="col-lg-3 col-md-3 col-sm-9 col-9 animated-div">
+                                <div class="form-group">
+                                    <label for="CustomerEmail" class="form-label fw-semi-bold">Patient Name<span class="error-star">*</span></label>
+                                    <input type="text" style="border-radius: 5px;" asp-for="CustomerEmail" id="CustomerEmail" class="form-control form-control-sm form-rounded fw-semi-bold" placeholder="Patient Name" />
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-9 animated-div">
+                                <div class="form-group">
+                                    <label for="chooseProduct" class="form-label fw-semi-bold">Mobile</label><span class="error-star">*</span>
+                                    <div class="position-relative input-group">
+                                        <input type="text" class="form-control form-control-sm form-rounded" placeholder="Search..." id="chooseProduct" />
+                                        <button class="btn btn-sm btn-light" type="button" id="plusButton" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight-1" aria-controls="offcanvasRight-1">+</button>
                                     </div>
                                 </div>
-
+                            </div>
                                 <div class="col-lg-3 col-md-3 col-sm-9 col-9 animated-div">
                                     <div class="form-group">
                                         <label for="CustomerEmail" class="form-label fw-semi-bold">Customer Email</label>
@@ -272,7 +279,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-3 col-md-3 col-sm-9 col-9 animated-div">
+                                @* <div class="col-lg-3 col-md-3 col-sm-9 col-9 animated-div">
                                     <div class="form-group">
                                         <label for="subCategorySelect" class="form-label fw-semi-bold">Sub Category</label>
                                         <select id="subCategorySelect" class="form-select form-rounded form-select-sm">
@@ -283,11 +290,19 @@
                                             }
                                         </select>
                                     </div>
+                                </div> *@
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-9 animated-div">
+                                <div class="form-group">
+                                    <label for="chooseProduct" class="form-label fw-semi-bold">Search by Service/Treatment Name</label><span class="error-star">*</span>
+                                    <div class="position-relative input-group">
+                                        <input type="text" class="form-control form-control-sm form-rounded" placeholder="Search..." id="chooseProduct" />
+                                        <button class="btn btn-sm btn-light" type="button" id="plusButton" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight-1" aria-controls="offcanvasRight-1">+</button>
+                                    </div>
                                 </div>
-
+                            </div>
                                 <div class="col-lg-4 col-md-4 col-sm-6 col-9 animated-div">
                                     <div class="form-group">
-                                        <label for="chooseProduct" class="form-label fw-semi-bold">Search by Name/Sku/Code</label><span class="error-star">*</span>
+                                        <label for="chooseProduct" class="form-label fw-semi-bold">Search by Product Name/Sku/Code</label><span class="error-star">*</span>
                                         <div class="position-relative input-group">
                                             <input type="text" class="form-control form-control-sm form-rounded" placeholder="Search..." id="chooseProduct" />
                                             <button class="btn btn-sm btn-light" type="button" id="plusButton" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight-1" aria-controls="offcanvasRight-1">+</button>
@@ -360,13 +375,13 @@
                                                     <td>
                                                         <input readonly type="number" class="form-control form-control-sm form-rounded bold-input fw-semi-bold" placeholder="Amount" value="@itm.TotalPrice">
                                                     </td>
-                                                    <td class="treeview">
+                                                    @* <td class="treeview">
                                                         <div class="treeview-list-item">
                                                             <a data-bs-toggle="collapse" href="#treeviewExample-1_@indexx" role="button" aria-expanded="false">
                                                                 <p class="treeview-text">Serial</p>
                                                             </a>
                                                         </div>
-                                                    </td>
+                                                    </td> *@
                                                     <td>
                                                         <button type="button" title="Info" class="btn btn-sm a-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                                             <i class="fa fa-info-circle" style="font-size:18px"></i>
@@ -503,7 +518,7 @@
                     <div class="d-flex">
                         <img class="me-3" src="../../assets/img/icons/shield.png" alt="" width="60" height="60" />
                         <div class="flex-1">
-                            <h5 class="mb-2">Buyer/Customer Protection</h5>
+                            <h5 class="mb-2">Patient/Customer Protection</h5>
                             <div class="form-check mb-0">
                                 <input class="form-check-input" id="protection-option-1" type="checkbox" checked="checked" />
                                 <label class="form-check-label mb-0" for="protection-option-1"> <strong>Full Refund </strong>If you don't <br class="d-none d-md-block d-lg-none" />receive your order</label>

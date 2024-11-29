@@ -38,8 +38,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xDYWxlbmRhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Chart/BarChart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcnRcQmFyQ2hhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Chart/CandalStick.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcnRcQ2FuZGFsU3RpY2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [G:/DoctorTimes/DocTimes/DocTimes/Views/Chart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Chart/Report.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcnRcUmVwb3J0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [G:/DoctorTimes/DocTimes/DocTimes/Views/Chat/Index.cshtml]
@@ -104,6 +116,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [G:/DoctorTimes/DocTimes/DocTimes/Views/Invoice/ShippingWithPayment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZVxTaGlwcGluZ1dpdGhQYXltZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/DoctorTimes/DocTimes/DocTimes/Views/Patient/CreateProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxDcmVhdGVQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [G:/DoctorTimes/DocTimes/DocTimes/Views/Patient/Index.cshtml]

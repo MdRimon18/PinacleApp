@@ -1,4 +1,5 @@
-﻿<div class="row g-lg-3 font-sans-serif">
+﻿@model Domain.Entity.Settings.Suppliers
+<div class="row g-lg-3 font-sans-serif">
     <div class="col-lg-8">
        
         <div class="card mb-3">
@@ -6,52 +7,102 @@
                 <h5 class="mb-0">Create Your Profile</h5>
             </div>
             <div class="card-body bg-body-tertiary">
-                <form class="row gx-2">
-                    <div class="col-12 mb-3">
-                        <label class="form-label" for="course-name">Your Name<span class="text-danger">*</span></label>
-                        <input class="form-control" id="course-name" type="text" placeholder="Your Name" required="required" />
-                    </div>
-                    <div class="col-sm-6 mb-3">
-                        <label class="form-label" for="course-category">Category<span class="text-danger">*</span></label>
-                        <select class="form-select" id="course-category" name="course-category">
-                            <option>Select a category</option>
-                            <option>Academia</option>
-                            <option>Arts & Crafts</option>
-                            <option>Design</option>
-                            <option>Development</option>
-                            <option>Finance</option>
-                            <option>Marketing</option>
-                            <option>Music</option>
-                            <option>Lifestyle</option>
-                            <option>Photography</option>
-                            <option>Miscellaneous</option>
-                        </select>
-                    </div>
-                    <div class="col-sm-6 mb-3">
-                        <label class="form-label" for="course-subcategory">Sub-category<span class="text-danger">*</span></label>
-                        <select class="form-select" id="course-subcategory" name="course-sub-category">
-                            <option>Select a sub-category</option>
-                            <option>3D & Animation</option>
-                            <option>Architectural Design</option>
-                            <option>Graphics Design</option>
-                            <option>Game Design</option>
-                            <option>Fashion Design</option>
-                            <option>Illustration</option>
-                            <option>User Interface Design</option>
-                            <option>UX Design</option>
-                            <option>Web Design</option>
-                            <option>Others…</option>
-                        </select>
-                    </div>
-                    <div class="col-12 mb-3">
-                        <label class="form-label" for="course-tags">Tags<span class="text-danger">*</span></label>
-                        <input class="form-control js-choice" id="course-tags" type="text" name="tags" required="required" size="1" data-placeholder="Select upto 4 tags" data-options='{"removeItemButton":true,"placeholder":true}' />
-                    </div>
-                    <div class="col-12">
-                        <label class="form-label" for="course-description">Course Description<span class="text-danger">*</span></label>
-                        <div class="create-course-description-textarea">
-                            <textarea class="tinymce d-none" data-tinymce="data-tinymce" name="course-description" id="course-description" required="required"></textarea>
+                <form asp-action="SaveOrUpdate" asp-controller="Supplier" method="post" class="form-horizontal">
+                    <div class="card-body bg-body-tertiary container">
+                        @if (!string.IsNullOrEmpty(ViewBag.SuccessMessage))
+                        {
+                            <div class="alert alert-success" role="alert">
+                                @ViewBag.SuccessMessage
+                            </div>
+                        }
+                        @if (!string.IsNullOrEmpty(ViewBag.DangerMessage))
+                        {
+                            <div class="alert alert-danger" role="alert">
+                                @ViewBag.DangerMessage
+                            </div>
+                        }
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="col-sm-12 col-md-12">
+                                    <div class="form-group">
+                                        <label for="SupplrName" class="form-label fw-semi-bold">Name<span class="error-star">*</span></label>
+                                        <input asp-for="SupplrName" class="form-control form-control-sm form-rounded" placeholder="Enter Name" />
+                                        <span asp-validation-for="SupplrName" class="text-left invalid-message-color"></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12">
+                                    <div class="form-group">
+                                        <label for="MobileNo" class="form-label fw-semi-bold">Enter Mobile No<span class="error-star">*</span></label>
+                                        <input asp-for="MobileNo" class="form-control form-control-sm form-rounded" placeholder="Enter Mobile No" />
+                                        <span asp-validation-for="MobileNo" class="text-left invalid-message-color"></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12">
+                                    <div class="form-group">
+                                        <label for="Email" class="form-label fw-semi-bold">Email<span class="error-star">*</span></label>
+                                        <input asp-for="Email" class="form-control form-control-sm form-rounded" placeholder="Write Email" />
+                                        <span asp-validation-for="Email" class="text-left invalid-message-color"></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12">
+                                    <div class="form-group">
+                                        <label for="SuppOrgnznName" class="form-label fw-semi-bold">Organization Name<span class="error-star">*</span></label>
+                                        <input asp-for="SuppOrgnznName" class="form-control form-control-sm form-rounded" placeholder="Organization Name" />
+                                        <span asp-validation-for="SuppOrgnznName" class="text-left invalid-message-color"></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12">
+                                    <div class="form-group">
+                                        <label for="SupplrName" class="form-label fw-semi-bold">Specialization  Area<span class="error-star">*</span></label>
+                                        <textarea asp-for="SupplrName" class="form-control form-control-sm form-rounded" placeholder="Enter Specialization Area" rows="1"></textarea>
+
+                                        <span asp-validation-for="SupplrName" class="text-left invalid-message-color"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                
+                                <div class="col-sm-12 col-md-12">
+                                    <div class="form-group">
+                                        <label for="MobileNo" class="form-label fw-semi-bold">Enter Address one<span class="error-star">*</span></label>
+                                        <textarea asp-for="SupplrName" class="form-control form-control-sm form-rounded" placeholder="Enter Specialization Area" rows="1"></textarea>
+
+                                        <span asp-validation-for="MobileNo" class="text-left invalid-message-color"></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12">
+                                    <div class="form-group">
+                                        <label for="Email" class="form-label fw-semi-bold">Enter Address Two<span class="error-star">*</span></label>
+                                        <textarea asp-for="SupplrName" class="form-control form-control-sm form-rounded" placeholder="Enter Address Two" rows="1"></textarea>
+
+                                        <span asp-validation-for="Email" class="text-left invalid-message-color"></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12">
+                                    <div class="form-group">
+                                        <label for="Email" class="form-label fw-semi-bold">Enter Address Three<span class="error-star">*</span></label>
+                                        <textarea asp-for="SupplrName" class="form-control form-control-sm form-rounded" placeholder="Enter Address Three" rows="1"></textarea>
+
+                                        <span asp-validation-for="Email" class="text-left invalid-message-color"></span>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label class="form-label" for="course-tags">Tags<span class="text-danger">*</span></label>
+                                    <input class="form-control js-choice" id="course-tags" type="text" name="tags" required="required" size="1" data-placeholder="Select upto 4 tags" data-options='{"removeItemButton":true,"placeholder":true}' />
+                                </div>
+                               
+                            </div>
                         </div>
+                         <div class="row">
+                            <div class="col-12">
+                                <label class="form-label" for="course-description">Course Description<span class="text-danger">*</span></label>
+                                <div class="create-course-description-textarea">
+                                    <textarea class="tinymce d-none" data-tinymce="data-tinymce" name="course-description" id="course-description" required="required"></textarea>
+                                </div>
+                            </div>
+                         </div>
+                        <button type="submit" class="btn btn-primary btn-sm mt-2">Save</button>
+                        <button type="reset" class="btn btn-primary btn-sm mt-2">Refresh</button>
                     </div>
                 </form>
             </div>
@@ -269,50 +320,8 @@
                     </form>
                 </div>
             </div>
-            <div class="card mb-3">
-                <div class="card-header">
-                    <h5 class="mb-0">Upload Preview Video<span data-bs-toggle="tooltip" data-bs-placement="top" title="Upload preview video"><span class="fas fa-info-circle text-primary fs-9 ms-2"></span></span></h5>
-                </div>
-                <div class="card-body bg-body-tertiary">
-                    <form class="dropzone dropzone-single p-0" data-dropzone="data-dropzone" data-options='{"maxFiles":1,"acceptedFiles":".mp4,.mkv,.avi"}'>
-                        <div class="fallback">
-                            <input type="file" accept="video/*" />
-                        </div>
-                        <div class="dz-preview dz-preview-single">
-                            <div class="dz-preview-cover dz-complete">
-                                <video class="dz-preview-img" controls="controls" data-dz-thumbnail=""></video><a class="dz-remove text-danger" href="#!" data-dz-remove="data-dz-remove"><span class="fas fa-times"></span></a>
-                                <div class="dz-progress"><span class="dz-upload" data-dz-uploadprogress=""></span></div>
-                                <div class="dz-errormessage m-1 text-center"><span data-dz-errormessage="data-dz-errormessage"></span></div>
-                            </div>
-                            <div class="dz-progress"><span class="dz-upload" data-dz-uploadprogress=""></span></div>
-                        </div>
-                        <div class="dz-message fs-10" data-dz-message="data-dz-message"><img class="me-2" src="../../../assets/img/icons/cloud-upload.svg" width="20" alt="" /><span class="d-none d-lg-inline">Drag your .mp4 or .mkv file here<br />or, </span><span class="btn btn-link p-0 fs-10">Browse</span></div>
-                    </form>
-                    <label class="form-label mt-3" for="video-link">or, paste youtube link here</label>
-                    <div class="position-relative">
-                        <input class="form-control" id="video-link" type="url" placeholder="youtu.be/xXxxXxXXxxX" />
-                        <div class="position-absolute top-50 end-0 translate-middle-y lh-1 me-2"><span class="fas fa-link text-400 me-1"></span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card mb-3 mb-lg-0">
-                <div class="card-header">
-                    <h5 class="mb-0">Set Pricing</h5>
-                </div>
-                <div class="card-body bg-body-tertiary">
-                    <div class="row gx-2">
-                        <div class="col-12 mb-3">
-                            <label class="form-label" for="base-price">Base Price <span data-bs-toggle="tooltip" data-bs-placement="top" title="Course regular price"><span class="fas fa-question-circle text-primary fs-10 ms-1"></span></span></label>
-                            <input class="form-control" id="base-price" type="text" placeholder="" />
-                        </div>
-                        <div class="col-12">
-                            <label class="form-label" for="discounted-price">Discounted Price <span data-bs-toggle="tooltip" data-bs-placement="top" title="Course discounted price"><span class="fas fa-question-circle text-primary fs-10 ms-1"></span></span></label>
-                            <input class="form-control" id="discounted-price" type="text" placeholder="" />
-                        </div>
-                        <div class="text-end"> <a class="fs-10 fw-medium" href="#schedule-discount-modal" data-bs-toggle="modal">Schedule Discount</a></div>
-                    </div>
-                </div>
-            </div>
+             
+            
         </div>
     </div>
 </div>

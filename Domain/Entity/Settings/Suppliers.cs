@@ -16,6 +16,7 @@ namespace Domain.Entity.Settings
         public string MobileNo { get; set; }
         [Required(ErrorMessage = "Email is required")]
         [EmailAddress(ErrorMessage = "Invalid email address")]
+           
         public string Email { get; set; }
         [Required(ErrorMessage = "Organization Name is Required")]
         [StringLength(200, ErrorMessage = "Organization Name cannot exceed 200 characters")]
@@ -42,5 +43,8 @@ namespace Domain.Entity.Settings
 
         [NotMapped]
         public int total_row { get; set; } = 0;
+        [NotMapped]
+        public string ImageData { get; set; }
+
     }
 }

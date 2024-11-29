@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Domain.Entity.Settings;
+using Microsoft.AspNetCore.Mvc;
 
 namespace DocTimes.Controllers
 {
@@ -38,6 +39,17 @@ namespace DocTimes.Controllers
             }
 
             return View();
+
+        }
+        public IActionResult CreateProfile(bool isPartial = false)
+        {
+            // If the request is an AJAX request, return the partial view only
+            if (isPartial)
+            {
+                return PartialView("CreateProfile",new Suppliers());
+            }
+
+            return View(new Suppliers());
 
         }
     }

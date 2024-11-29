@@ -1,0 +1,159 @@
+﻿ @model Domain.Entity.Settings.Suppliers
+<div class="row g-lg-3 font-sans-serif">
+    <div class="col-lg-8">
+
+        <div class="card mb-3">
+            <div class="card-header">
+                <h5 class="mb-0">Create Patient Profile</h5>
+            </div>
+            <div class="card-body bg-body-tertiary">
+                <form asp-action="SaveOrUpdate" asp-controller="Supplier" method="post" class="form-horizontal">
+                    <div class="card-body bg-body-tertiary container">
+                        @if (!string.IsNullOrEmpty(ViewBag.SuccessMessage))
+                        {
+                            <div class="alert alert-success" role="alert">
+                                @ViewBag.SuccessMessage
+                            </div>
+                        }
+                        @if (!string.IsNullOrEmpty(ViewBag.DangerMessage))
+                        {
+                            <div class="alert alert-danger" role="alert">
+                                @ViewBag.DangerMessage
+                            </div>
+                        }
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="col-sm-12 col-md-12">
+                                    <div class="form-group">
+                                        <label for="SupplrName" class="form-label fw-semi-bold">Name<span class="error-star">*</span></label>
+                                        <input asp-for="SupplrName" class="form-control form-control-sm form-rounded" placeholder="Enter Name" />
+                                        <span asp-validation-for="SupplrName" class="text-left invalid-message-color"></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12">
+                                    <div class="form-group">
+                                        <label for="MobileNo" class="form-label fw-semi-bold">Enter Mobile No<span class="error-star">*</span></label>
+                                        <input asp-for="MobileNo" class="form-control form-control-sm form-rounded" placeholder="Enter Mobile No" />
+                                        <span asp-validation-for="MobileNo" class="text-left invalid-message-color"></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12">
+                                    <div class="form-group">
+                                        <label for="Email" class="form-label fw-semi-bold">Email<span class="error-star">*</span></label>
+                                        <input asp-for="Email" class="form-control form-control-sm form-rounded" placeholder="Write Email" />
+                                        <span asp-validation-for="Email" class="text-left invalid-message-color"></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12">
+                                    <div class="form-group">
+                                        <label for="SuppOrgnznName" class="form-label fw-semi-bold">Organization Name<span class="error-star">*</span></label>
+                                        <input asp-for="SuppOrgnznName" class="form-control form-control-sm form-rounded" placeholder="Organization Name" />
+                                        <span asp-validation-for="SuppOrgnznName" class="text-left invalid-message-color"></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12">
+                                    <div class="form-group">
+                                        <label for="BusinessTypeId" class="form-label fw-semi-bold">Select Business Type<span class="error-star">*</span></label>
+                                        <select asp-for="BusinessTypeId" class="form-select form-rounded form-select-sm">
+                                            <option value="">Business Type</option>
+                                            @* @foreach (var item in Model.BusinessTypes)
+                                            {
+                                            <option value="@item.BusinessTypeId">@item.BusinessTypeName</option>
+                                            } *@
+                                        </select>
+                                        <span asp-validation-for="BusinessTypeId" class="text-left invalid-message-color"></span>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <div class="col-sm-12 col-md-12">
+                                    <div class="form-group">
+                                        <label for="CountryId" class="form-label fw-semi-bold">Select Country<span class="error-star">*</span></label>
+                                        <select asp-for="CountryId" class="form-select form-rounded form-select-sm">
+                                            <option value="">Select Country</option>
+                                            @* @foreach (var item in Model.Countries)
+                                            {
+                                            <option value="@item.CountryId">@item.CountryName</option>
+                                            } *@
+                                        </select>
+                                        <span asp-validation-for="CountryId" class="text-left invalid-message-color"></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12">
+                                    <div class="form-group">
+                                        <label for="StateName" class="form-label fw-semi-bold">State Name<span class="error-star">*</span></label>
+                                        <input asp-for="StateName" class="form-control form-control-sm form-rounded" placeholder="Enter Your State Name" />
+                                        <span asp-validation-for="StateName" class="text-left invalid-message-color"></span>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-12 col-md-12">
+                                    <div class="form-group">
+                                        <label for="SupplrAddrssOne" class="form-label fw-semi-bold">Supplier Address One</label>
+                                        <textarea asp-for="SupplrAddrssOne" rows="2" class="form-control form-control-sm form-rounded" placeholder="Supplier Address One"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12">
+                                    <div class="form-group">
+                                        <label for="SupplrAddrssTwo" class="form-label fw-semi-bold">Supplier Address Two</label>
+                                        <textarea asp-for="SupplrAddrssTwo" rows="2" class="form-control form-control-sm form-rounded" placeholder="Supplier Address Two"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12">
+                                    <div class="form-group">
+                                        <label for="DeliveryOffDay" class="form-label fw-semi-bold">Delivery Off Day</label>
+                                        <input asp-for="DeliveryOffDay" class="form-control form-control-sm form-rounded" placeholder="Delivery Off Day" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-sm mt-2">Save</button>
+                        <button type="reset" class="btn btn-primary btn-sm mt-2">Refresh</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+       
+    </div>
+    <div class="col-lg-4">
+        <div class="sticky-sidebar top-navbar-height d-flex flex-column">
+             
+            <div class="card mb-3">
+                <div class="card-header">
+                    <h5 class="mb-0">Upload Profile Picture <span data-bs-toggle="tooltip" data-bs-placement="top" title="Add cover photo"><span class="fas fa-info-circle text-primary fs-9 ms-2"></span></span></h5>
+                </div>
+                <div class="card-body bg-body-tertiary">
+                    <form class="dropzone dropzone-single p-0" data-dropzone="data-dropzone" data-options='{"maxFiles":1,"acceptedFiles":"image/*"}'>
+                        <div class="fallback">
+                            <input type="file" name="file" />
+                        </div>
+                        <div class="dz-preview dz-preview-single">
+                            <div class="dz-preview-cover dz-complete">
+                                <img class="dz-preview-img" src="../../../assets/img/generic/image-file-2.png" alt="" data-dz-thumbnail="" /><a class="dz-remove text-danger" href="#!" data-dz-remove="data-dz-remove"><span class="fas fa-times"></span></a>
+                                <div class="dz-progress"><span class="dz-upload" data-dz-uploadprogress=""></span></div>
+                                <div class="dz-errormessage m-1"><span data-dz-errormessage="data-dz-errormessage"></span></div>
+                            </div>
+                            <div class="dz-progress"><span class="dz-upload" data-dz-uploadprogress=""></span></div>
+                        </div>
+                        <div class="dz-message fs-10" data-dz-message="data-dz-message"><img class="me-2" src="../../../assets/img/icons/cloud-upload.svg" width="20" alt="" /><span class="d-none d-lg-inline">Drag your image here<br />or, </span><span class="btn btn-link p-0 fs-10">Browse</span></div>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<div class="card rounded-0 bottom-bar d-lg-none" data-bottom-bar='{"target":"course-publish-btn","breakPoint":"lg"}'>
+    <div class="card-body py-2 px-0">
+        <div class="container">
+            <div class="row flex-between-center g-0">
+                <div class="col-auto"><a class="btn btn-link btn-sm text-secondary fw-medium px-0" href="#!">Save as Draft</a></div>
+                <div class="col-auto">
+                    <button class="btn btn-primary btn-md px-5 fw-medium" type="submit">Publish</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
